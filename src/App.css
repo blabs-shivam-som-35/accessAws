@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+.home,.reports,.products,.team,.reports {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.outer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+}
+.inner {
+  width: 75%;
+  margin: auto;
+  background: #c5baba;
+  box-shadow: 0px 14px 80px rgba(67, 68, 90, 0.459);
+  padding: 30px;
+  transition: all .3s;
+}
+
+.outer .form-control:focus {
+  border-color: #81ebd4;
+  box-shadow: none;
+}
+
+.outer h3 {
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+  line-height: 1;
+  padding-bottom: 20px;
+}
+
+label{
+  font-weight: 600;
+}
+.forgot-password,.forgot-password a {
+  text-align: right;
+  font-size: 13px;
+  padding-top: 10px;
+  color: #7f7d7d;
+  margin: 0;
+}
